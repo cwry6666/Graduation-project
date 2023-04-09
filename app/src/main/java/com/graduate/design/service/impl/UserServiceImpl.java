@@ -41,7 +41,7 @@ import java.util.List;
 import java.util.Map;
 
 public class UserServiceImpl implements UserService {
-    private final String base = "https://192.168.43.39:8888";
+    private final String base = "https://127.0.0.1:8888";
     private NetWorkService netWorkService = new NetWorkServiceImpl();
 
     @Override
